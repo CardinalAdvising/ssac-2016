@@ -1,0 +1,286 @@
+---
+documentclass: cardinalreport
+title: "A Report with a Long Title that Extends Over Several Lines"
+subtitle: A Subtitle
+author: |
+  | \textbf{Analyst One}, Title, Affiliation, analyst1@mail.com
+  | \textbf{Analyst Two}, Title, Affiliation, analyst2@mail.com
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+companylogo: cardinallogo.png
+clientlogo: MiamiHeatlogo.png
+fontsize: 12pt
+linkcolor: ColorOne
+citecolor: ColorOne
+urlcolor: ColorOne
+header-includes:
+- \fancyhead[CO,CE]{\textcolor{ColorOne}{A Report with a Short Title}}
+output:
+  pdf_document:
+    fig_caption: yes
+    highlight: kate
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+bibliography: bibliography.bib
+abstract: \noindent Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis
+  dictum nisl nec volutpat. Aliquam quis purus eu dui hendrerit vehicula vitae at
+  nulla. Sed sed est convallis, cursus orci eget, commodo metus. Aliquam vitae ultrices
+  arcu. Quisque risus libero, elementum eget venenatis sed, suscipit vel eros. In
+  euismod ultrices dignissim. Cras sit amet velit ultricies, accumsan justo eu, iaculis
+  quam. Sed fringilla dapibus placerat. Aliquam dapibus ultrices laoreet. Donec quis
+  arcu eget quam suscipit mattis. Mauris sem odio, imperdiet a nibh et, auctor suscipit
+  velit. Etiam porta, tellus vitae suscipit euismod, libero est condimentum lorem,
+  quis molestie mauris sapien sed lectus.
+include-after: "| \\newpage \\titlefont{About the Authors\\\\} \\normalfont\\normalsize\n|\n|
+  \\textbf{Daniel McIntosh} is an instructor of Mathematics and Marketing at Grand
+  Canyon University. Prior to teaching, Daniel worked with various sports organizations
+  including Arizona State University, The University of Louisville, USA Basketball
+  and multiple non-profit organizations. Daniel received his MBA from Arizona State
+  University in 2010. His undergraduate degree is in Finance from Barrett, the honors
+  college at Arizona State University. His honors thesis was focused on integrated
+  new product development in the nanotechnology industry.\n|\n| \\textbf{Bradley Fay}
+  is a Ph.D. candidate in the W.P. Carey School of Business at Arizona State University.
+  He is currently working on his dissertation which focuses on the analytics of customer/fan
+  experiences and the role of technology in managing experiences. His research interests
+  include customer experience management, marketing analytics, and sports business
+  and performance analytics. Prior to joining the Ph.D. program, he earned his MBA
+  from Arizona State University specializing in Sports Business and Marketing. In
+  addition to his education, Bradley has consulted for a number of prominent organizations
+  in the sports industry including the National Football League, National Basketball
+  Association, and Bowl Championship Series as well as Fortune 100 company, Abbott
+  Laboratories.\n|\n| \\textbf{Cardinal Advising} is a consulting company that specializes
+  in modern Sports Analytics. The company offers services in Data Analytics, Automated
+  Reporting, Custom Data Collection and Insight Generation by applying cutting edge
+  techniques from Data Science and Machine Learning. Cardinal Advising is headquartered
+  in Paradize Valley, Arizona. Contact us at\n| 4901 E Butler Dr\n| Paradise Valley
+  \n| AZ, 85253\n| Phone: +1 602 492 8045\n| Email: info@cardinaladvising.com\n| Web:
+  http://www.cardinaladvising.com\n"
+
+---
+<!-- CUSTOM COLORS-->
+\definecolor{ColorOne}{RGB}{209,72,37}
+\definecolor{ColorTwo}{RGB}{123,121,121}
+
+<!--WATERMARK-->
+\newwatermark[allpages,color=gray!15,angle=45,scale=3]{FINAL}
+
+<!-- MAIN PART-->
+# A Chapter
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis dictum nisl nec volutpat. Aliquam quis purus eu dui hendrerit vehicula vitae at nulla. Sed sed est convallis, cursus orci eget, commodo metus. Aliquam vitae ultrices arcu. Quisque risus libero, elementum eget venenatis sed, suscipit vel eros. In euismod ultrices dignissim. Cras sit amet velit ultricies, accumsan justo eu, iaculis quam. Sed fringilla dapibus placerat. Aliquam dapibus ultrices laoreet. Donec quis arcu eget quam suscipit mattis. Mauris sem odio, imperdiet a nibh et, auctor suscipit velit. Etiam porta, tellus vitae suscipit euismod, libero est condimentum lorem, quis molestie mauris sapien sed lectus. 
+
+## A Sub-Chapter
+Mauris convallis scelerisque maximus. Morbi cursus, est nec consequat porttitor, mauris mauris blandit neque, non imperdiet lorem felis et libero. Nulla in tempor felis, pharetra pellentesque mi. Donec elementum tempor lorem, non condimentum arcu tempus eget. Quisque dignissim, augue vitae elementum finibus, justo sem finibus libero, sit amet facilisis ligula nibh vel diam. Maecenas nec ante dui. Ut in tortor posuere, posuere velit nec, venenatis est. Nam id justo eget diam blandit mattis. Vestibulum tempus mauris vel felis luctus, vel condimentum tortor laoreet.
+
+### A Sub-Sub-Chapter
+Pellentesque dictum ornare lacinia. Sed tincidunt dignissim luctus. Curabitur pharetra velit non ultricies pretium. Morbi vehicula massa ac neque porttitor, ut faucibus diam egestas. Curabitur posuere ullamcorper venenatis. In tincidunt nisi non augue placerat pulvinar. Integer ut libero orci. Aenean vehicula tellus non odio sollicitudin, ac ultrices ex congue. Sed cursus turpis ut aliquet dapibus. Suspendisse volutpat tellus nec nisi varius, id mattis leo dignissim. Praesent commodo massa fermentum tellus feugiat laoreet.
+
+### Another Sub-Sub-Chapter
+Cras laoreet cursus felis, vitae tristique dolor sollicitudin non. Ut eu ex euismod, maximus neque sit amet, rhoncus leo. Cras ac facilisis erat. Integer in lectus a lorem tincidunt vehicula. Donec accumsan consequat magna nec dapibus. Fusce sit amet libero libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc gravida posuere congue. Pellentesque ac euismod felis. Nunc eu nibh orci. Ut scelerisque tincidunt metus non ultrices. Nam non ipsum eleifend, tincidunt nisi at, auctor felis. Praesent lacinia dictum felis, ac sodales turpis vulputate eget. Donec fermentum at mauris at convallis.
+
+
+
+# Formatting
+
+## Spacing
+### Line breaks
+To enter a manual line break  
+end the line with two or more spaces.
+
+### Page breaks
+A page break is obtained with three or more asterisks or dashes:
+
+********
+
+--------
+
+## Text
+
+### A comment
+
+This [](word here) is not printed in the compiled output and the following line is not printed either.
+
+<!--This comment is also not printed in pdf, html or Word outputs-->
+
+
+### A Block Quote
+
+> Work hard
+> and stay humble.
+
+
+### Font and style
+
+The syntax  for:
+**bold** or __bold__ for use in unordered lists,
+*italics* or _italics_ for the use in unordered lists,
+superscript^2^,
+subscript~2~,
+~~strikethrough~~ and
+<span style="font-variant:small-caps;">Small caps</span>.
+
+### Lists
+
+#### An unordered ("bulleted") list:
+
+* Item 1
+* Item 2
+    + Item 2a
+    + Item 2b
+
+
+#### An ordered List:
+
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
+
+
+## Notes
+
+### Footnotes
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+
+        { some.code }
+
+    The whole paragraph can be indented, or just the first
+    line.  In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
+    
+This paragraph won't be part of the note, because it
+isn't indented.
+
+### Inline notes
+Here is an inline note.^[Inlines notes are easier to write, since
+you don't have to pick an identifier and move down to type the
+note.]
+
+## Source code
+
+#### Inline R code
+
+There were `r nrow(cars)` cars studied
+
+Plain code blocks displayed in a fixed-width font but not evaulated
+
+```
+This text is displayed verbatim / preformatted
+```
+
+#### R code chunk 
+Evaluates and prints the R code:
+
+```{r}
+summary(cars$dist)
+summary(cars$speed)
+```
+
+
+## Math
+An inline equation in Latex: $A = \pi*r^{2}$ 
+
+A display equation in Latex:
+
+$$\text{Speed} = \frac{\text{Distance}}{\text{Time}}$$
+
+$$\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x).$$
+
+## Tables and Figures
+
+### Tables
+
+#### A simple table
+
+First Column Header  | Second Column Header
+------------- | -------------
+Row1-Column1  | Row1-Column2
+Row2-column1  | Row2-Column2
+
+
+#### An R table
+```{r}
+summary(cars)
+```
+
+```{r, echo=FALSE,results='asis'}
+library(xtable)
+options(xtable.comment = FALSE)
+options(xtable.booktabs = TRUE)
+xtable(head(mtcars[,1:6]), caption = "First rows of mtcars")
+```
+
+### Graphs
+<!--
+echo = FALSE parameter prevents printing of the R code that generates the plot
+fig.cap="Some title" is the title of the figure
+-->
+A graph generated from R:
+
+```{r, echo=FALSE, fig.cap="Cars"} 
+plot(cars)
+```
+
+
+
+### Figures
+A figure with a caption\:
+
+![Results](Figure.jpg)
+
+
+```{r, fig.margin = TRUE, fig.cap = "Sepal length vs. petal length, colored by species"}
+library(ggplot2)
+qplot(Sepal.Length, Petal.Length, data = iris, color = Species)
+```
+
+## Referencing
+### Links
+A [linked phrase][id].
+At the bottom of the document:
+
+[id]: http://example.com/ "Title"
+Images
+![alt text][id]
+At the bottom of the document:
+
+[id]: Figure.jpg "Title"
+
+### Hyperlinks
+Plain http <https://www.cardinaladvising.com>  and a [linked phrase](http://example.com).
+
+### Bibliography and citing
+Citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of '@' + the citation identifier from the database.[see @BRAU68 pp. 22-34; @ALOI89 pp. 33-35, 38-39; @Clark2009; {EIA2013]
+
+A minus sign (-) before the @ will suppress mention of the author in the citation. This can be useful when the author is already mentioned in the text:
+
+Peatross says blah blah.[-@Peatross]
+
+You can also write an in-text citation, as follows:
+
+@Peatross1993 says blah, @Peatross1996 says bleh. @BERG91 [p. 33] says blah blah.
+
+If you want to include items in the bibliography without actually citing them in the body text, you can define a dummy nocite metadata field and put the citations there:
+````
+---
+nocite: | 
+  @item1, @item2
+...
+
+@item3
+````
+In this example, the document will contain a citation for item3 only, but the bibliography will contain entries for item1, item2, and item3.
+
+By default, pandoc will use a Chicago author-date format for citations and references. To use another style, you will need to specify a CSL style file in the csl metadata field in the YAML preamble. 
+
+
+
+# References
