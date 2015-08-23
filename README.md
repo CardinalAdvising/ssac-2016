@@ -2,6 +2,7 @@ Sloan Sports Conf Paper
 =======================
 
 Potential Topics: 
+
 1. Forecasting future performance based on collegiate information using KNN
 2. How does where a player gets drafted impact development, success as a matching problem between player and organization
 
